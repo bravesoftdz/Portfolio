@@ -1,4 +1,4 @@
-program zes;
+program project1;
 
 {$mode objfpc}{$H+}
 
@@ -7,8 +7,7 @@ uses
   cthreads,
   {$ENDIF}{$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, unitz       ;
-
+  Forms, printer4lazarus, Unit1, Unit2;
 
 {$R *.res}
 

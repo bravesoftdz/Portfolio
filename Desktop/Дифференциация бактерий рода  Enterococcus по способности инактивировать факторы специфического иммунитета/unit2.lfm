@@ -1,0 +1,45 @@
+object Form2: TForm2
+  Left = 819
+  Height = 275
+  Top = 264
+  Width = 504
+  BorderStyle = bsDialog
+  Caption = 'Сохранить'
+  ClientHeight = 275
+  ClientWidth = 504
+  OnCreate = FormCreate
+  LCLVersion = '1.2.0.3'
+  object Memo1: TMemo
+    Left = 8
+    Height = 234
+    Top = 8
+    Width = 488
+    Lines.Strings = (
+      'Memo1'
+    )
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 8
+    Height = 25
+    Top = 248
+    Width = 75
+    Caption = 'Готово'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 96
+    Height = 25
+    Top = 248
+    Width = 75
+    Caption = 'Закрыть'
+    OnClick = Button2Click
+    TabOrder = 2
+  end
+  object SaveDialog1: TSaveDialog
+    DefaultExt = '.txt'
+    left = 480
+    top = 247
+  end
+end
